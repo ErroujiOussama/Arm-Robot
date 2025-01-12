@@ -1,0 +1,23 @@
+============= Mechanical Components =====================
+	
+	- Arm01 .
+	- Arm02 .
+	- Arm03 .
+	- Base .
+	- Gear1 .
+	- Gera2 .
+	- Grip link . ( ×4 pieces ) 
+	- Gripper . ( ×2 pieces )
+	- Gripper base .
+	-Waist
+
+================ Caracteristics & Specs======================
+	
+	- 0.2mm layer height.  (la couche )
+	- 40% infill ( remplissage )
+	- 200 degrees nozzle tepm for a normal PLA material.
+	- Orange color : arm1,arm2,arm3,waist.
+	-White color : Base,gripper,grip link,gear1,gear2.
+	
+========================================================
+
