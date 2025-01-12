@@ -19,7 +19,7 @@ This Project provides a simulation setup using PyBullet to load and control a ro
 - **Gravity and Physics Setup**: Configures gravity in the simulation.
 - **Joint Control**: Creates sliders for each robot joint to control their positions interactively.
 
-![alt text](<img/gui 2.jpg>)
+![alt text](<Simulation/pybullet/img/gui 2.jpg>)
 
 - **Collision Detection**: Detects and logs collisions between the robot's links and other objects in the environment.
 
@@ -32,7 +32,7 @@ This Project provides a simulation setup using PyBullet to load and control a ro
 ### 2. Roboticstoolbox (python)
 
 This code combines simulation, kinematics, and control to visualize the motion of a robot arm.
-![alt text](simulation/robotics_tool_box_python/arm_robot/img/swift_snap0.png)
+![alt text](Simulation/robotics_tool_box_python/arm_robot/img/swift_snap0.png)
 #### **Libraries and Tools**
 - roboticstoolbox: Used for modeling and controlling robots.
 - swift: Provides a 3D visualization interface for robotics simulation.
@@ -47,11 +47,11 @@ Computes joint velocities using the Jacobian and pseudoinverse.
 #### **Execution**
 Sequential movements along the x, y, and z axes demonstrate the robot’s capability.
 
-![alt text](<simulation/robotics_tool_box_python/arm_robot/img/swift_snap (1).png>) 
+![alt text](<Simulation/robotics_tool_box_python/arm_robot/img/swift_snap (1).png>) 
 
-![alt text](<simulation/robotics_tool_box_python/arm_robot/img/swift_snap (2).png>) 
+![alt text](<Simulation/robotics_tool_box_python/arm_robot/img/swift_snap (2).png>) 
 
-![alt text](simulation/robotics_tool_box_python/arm_robot/img/swift_snap.png)
+![alt text](Simulation/robotics_tool_box_python/arm_robot/img/swift_snap.png)
 
 #### **Details**:
 ##### **Servoing**:
@@ -105,18 +105,18 @@ robot = rtb.Robot.URDF("/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5-
 
 ### 3. Simscape Robot Arm Control
 
-![alt text](<img/all frames and transforms.png>) 
-![alt text](<img/center of mass.png>)
+![alt text](<Simulation/Simscape/img/all frames and transforms.png>) 
+![alt text](<Simulation/Simscape/img/center of mass.png>)
 
 The model is structured as a **Rigid Body Tree**, which is subsequently transformed into a Simscape model. The Simscape model allows control over the arm's actuation through motion and torque inputs.
 
-![alt text](<img/general block.png>)
+![alt text](<Simulation/Simscape/img/general block.png>)
 
 
 #### **Actuation Control**:
    - Control the motion and torque of the arm's joints.
 
-![alt text](img/slider.png)
+![alt text](Simulation/Simscape/img/slider.png)
 
 ##### **Control System Design**:
    - **Low-Level Control**: Adjust motion inputs directly using sliders.
