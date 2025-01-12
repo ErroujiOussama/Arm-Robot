@@ -1,0 +1,6 @@
+
+* base : MG996R Servo
+* Sholder : Arm 01 : MG996R servo
+* Elbow : Arm02 : MG996R Servo
+*wrist roll and wrist pitch : SG90S Servo Motor.
+* Gripper : SG90 Servo 
