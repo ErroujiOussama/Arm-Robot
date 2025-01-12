@@ -1,0 +1,398 @@
+<robot name="onshape">
+<link name="base">
+<visual>
+<origin xyz="-0.038608271166815956443 0.12440450522789228693 -0.063991340905239182946" rpy="5.7509516044667590244e-15 -2.0862571760163504623e-15 3.6082248300316976197e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor_mg996r.stl"/>
+</geometry>
+<material name="servo_motor_mg996r_material">
+<color rgba="0.35294117647058825815 0.35294117647058825815 0.35294117647058825815 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.038608271166815956443 0.12440450522789228693 -0.063991340905239182946" rpy="5.7509516044667590244e-15 -2.0862571760163504623e-15 3.6082248300316976197e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor_mg996r.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.038608271166816053588 0.12440450522789234244 -0.063991340905239169068" rpy="5.807677009606613488e-15 4.8047100793287102735e-17 9.3830639003887794165e-31" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/base.stl"/>
+</geometry>
+<material name="base_material">
+<color rgba="0.9372549019607843146 0.94117647058823528106 0.94509803921568624752 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.038608271166816053588 0.12440450522789234244 -0.063991340905239169068" rpy="5.807677009606613488e-15 4.8047100793287102735e-17 9.3830639003887794165e-31" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/base.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0021627936116862919898 0.031530345059669971641 -0.0055013484282212653936" rpy="0 0 0"/>
+<mass value="5.0548333489920036499" />
+<inertia ixx="0.006832740975825674079" ixy="0.00023690149940151815963"  ixz="-0.00017279538664273885024" iyy="0.00703385275808986795" iyz="0.00011437036882556753082" izz="0.010843204940570796979" />
+</inertial>
+</link>
+
+<link name="waist">
+<visual>
+<origin xyz="-0.040779253635128166755 -0.092879565691815130224 0.093107574107867213664" rpy="3.1415926535897900074 -1.3861331259258438238e-16 -1.1590616372980471474e-17" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/waist.stl"/>
+</geometry>
+<material name="waist_material">
+<color rgba="0.082352941176470587092 0.37647058823529411242 0.74509803921568629193 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.040779253635128166755 -0.092879565691815130224 0.093107574107867213664" rpy="3.1415926535897900074 -1.3861331259258438238e-16 -1.1590616372980471474e-17" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/waist.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.040604987428227330704 -0.092909252206131248686 0.093284350803163607058" rpy="3.1415926535897904515 -2.3296721008618978532e-16 2.3736808854395761594e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor_mg996r_1.stl"/>
+</geometry>
+<material name="servo_motor_mg996r_1_material">
+<color rgba="0.35294117647058825815 0.35294117647058825815 0.35294117647058825815 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.040604987428227330704 -0.092909252206131248686 0.093284350803163607058" rpy="3.1415926535897904515 -2.3296721008618978532e-16 2.3736808854395761594e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor_mg996r_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.00096363829747273346306 -0.015447750665147920793 -0.023484589658302752746" rpy="0 0 0"/>
+<mass value="0.14242800355199999873" />
+<inertia ixx="9.7597148676763819785e-05" ixy="4.211030963518064602e-06"  ixz="1.0806219757220851524e-05" iyy="9.2815155350301048573e-05" iyz="-2.0598149863689249682e-05" izz="0.00010084520564648444783" />
+</inertial>
+</link>
+
+<link name="link_1">
+<visual>
+<origin xyz="-0.038344380354147201972 0.13356083097909685065 0.095646339670103719399" rpy="1.5707963267948932273 0.16873178976647229543 4.7914886572591176535e-17" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_01.stl"/>
+</geometry>
+<material name="arm_01_material">
+<color rgba="0.082352941176470587092 0.37647058823529411242 0.74509803921568629193 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.038344380354147201972 0.13356083097909685065 0.095646339670103719399" rpy="1.5707963267948932273 0.16873178976647229543 4.7914886572591176535e-17" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_01.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.038344380354147208911 0.13356083097909665636 0.0966086928392866362" rpy="1.5707963267948932273 0.16873178976647229543 4.7914886572591176535e-17" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_01.stl"/>
+</geometry>
+<material name="arm_01_material">
+<color rgba="0.082352941176470587092 0.37647058823529411242 0.74509803921568629193 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.038344380354147208911 0.13356083097909665636 0.0966086928392866362" rpy="1.5707963267948932273 0.16873178976647229543 4.7914886572591176535e-17" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_01.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.011676448687552557285 -0.056977296998755547208 -0.0077659352759508774519" rpy="0 0 0"/>
+<mass value="0.068946039936000000359" />
+<inertia ixx="0.00011581696944377173624" ixy="-2.0078174836869957132e-05"  ixz="5.1566666406954121297e-08" iyy="1.3757156453273846258e-05" iyz="1.2200545237372082091e-07" izz="0.00012497853604730030657" />
+</inertial>
+</link>
+
+<link name="link_2">
+<visual>
+<origin xyz="0.061578801533603955143 -0.0038653850637323759754 -0.01074600596710848649" rpy="3.1415926535897913396 0.0033337719077815466777 1.5081084610458930229" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor.stl"/>
+</geometry>
+<material name="servo_motor_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.061578801533603955143 -0.0038653850637323759754 -0.01074600596710848649" rpy="3.1415926535897913396 0.0033337719077815466777 1.5081084610458930229" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.014715121890706700514 -0.25145776976874473219 -0.096608692839285345566" rpy="-1.5707963267949058839 -0.16873178976647060234 1.6262502071394909714e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_02_v3.stl"/>
+</geometry>
+<material name="arm_02_v3_material">
+<color rgba="0.082352941176470587092 0.37647058823529411242 0.74509803921568629193 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014715121890706700514 -0.25145776976874473219 -0.096608692839285345566" rpy="-1.5707963267949058839 -0.16873178976647060234 1.6262502071394909714e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_02_v3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.014699460186785001659 -0.25120826082896224873 -0.096608692839286608445" rpy="-1.5707963267948996666 -0.1687317897664718791 -7.6222803175711757222e-18" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor_mg996r_2.stl"/>
+</geometry>
+<material name="servo_motor_mg996r_2_material">
+<color rgba="0.35294117647058825815 0.35294117647058825815 0.35294117647058825815 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014699460186785001659 -0.25120826082896224873 -0.096608692839286608445" rpy="-1.5707963267948996666 -0.1687317897664718791 -7.6222803175711757222e-18" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor_mg996r_2.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.025488788034272558819 -0.0016318541153328577041 -0.020131631218811719269" rpy="0 0 0"/>
+<mass value="0.09480080491199999182" />
+<inertia ixx="2.2245858218653283224e-05" ixy="4.8583566137493454758e-06"  ixz="-1.3499075868518508022e-05" iyy="9.6461684388116718356e-05" iyz="8.7674576234017265841e-07" izz="8.7297210149630229191e-05" />
+</inertial>
+</link>
+
+<link name="link_3">
+<visual>
+<origin xyz="-0.0097793120238247391307 0.011871497516313483239 -0.022999993367229243368" rpy="-3.1415926535892979565 -1.5698159926952170995 1.0192323432968257713" />
+<geometry>
+<mesh filename="package:////Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor.stl"/>
+</geometry>
+<material name="servo_motor_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0097793120238247391307 0.011871497516313483239 -0.022999993367229243368" rpy="-3.1415926535892979565 -1.5698159926952170995 1.0192323432968257713" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.16573865283780261914 -0.20178084826721723322 0.090533189292191673658" rpy="-1.2130936787734249993 1.3908996602265506493 1.3001140748846449627e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_03.stl"/>
+</geometry>
+<material name="arm_03_material">
+<color rgba="0.082352941176470587092 0.37647058823529411242 0.74509803921568629193 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.16573865283780261914 -0.20178084826721723322 0.090533189292191673658" rpy="-1.2130936787734249993 1.3908996602265506493 1.3001140748846449627e-16" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/arm_03.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0056907977879946600175 0.0024069505050835515204 -0.019125435372435994896" rpy="0 0 0"/>
+<mass value="0.0394625360160000202" />
+<inertia ixx="9.6557293330483259179e-06" ixy="-5.8520618093744386476e-07"  ixz="6.8670213465759248021e-07" iyy="9.054930362501833281e-06" iyz="-4.5069774602225463457e-07" izz="5.7676809435977442365e-06" />
+</inertial>
+</link>
+
+<link name="gripper_base">
+<visual>
+<origin xyz="-0.014549999999998342037 0.037999999999993872013 0.01295149523287545193" rpy="1.5707963267949123232 1.5707963267948827912 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor.stl"/>
+</geometry>
+<material name="servo_motor_material">
+<color rgba="0.30196078431372547213 0.30196078431372547213 0.30196078431372547213 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014549999999998342037 0.037999999999993872013 0.01295149523287545193" rpy="1.5707963267949123232 1.5707963267948827912 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/servo_motor.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0089999999999998969713 0.063000000000000014322 -0.013999999999999993353" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gripper_base.stl"/>
+</geometry>
+<material name="gripper_base_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0089999999999998969713 0.063000000000000014322 -0.013999999999999993353" rpy="-1.570796326794896558 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gripper_base.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0044916591755529483229 0.028495776208723615219 0.0038632963524563748541" rpy="0 0 0"/>
+<mass value="0.048987975743999996603" />
+<inertia ixx="2.4152134947949697785e-05" ixy="-2.5283828816377063911e-06"  ixz="-1.3014533636061681905e-07" iyy="8.583405891557119126e-06" iyz="-4.2107140901085602456e-06" izz="2.1301565068242873382e-05" />
+</inertial>
+</link>
+
+<link name="gripper">
+<visual>
+<origin xyz="-0.023463316961303132269 0.0031958374640870413491 0.0085000000000000630607" rpy="-0.669478268298440371 1.570796326794896558 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gripper.stl"/>
+</geometry>
+<material name="gripper_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.023463316961303132269 0.0031958374640870413491 0.0085000000000000630607" rpy="-0.669478268298440371 1.570796326794896558 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gripper.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.017015027024369203112 -0.013773120756023111977 3.3306690738754696213e-16" rpy="-1.5707963267948976682 4.2933521907983261903e-16 3.0078358467489545447" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/grip_link.stl"/>
+</geometry>
+<material name="grip_link_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.017015027024369203112 -0.013773120756023111977 3.3306690738754696213e-16" rpy="-1.5707963267948976682 4.2933521907983261903e-16 3.0078358467489545447" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/grip_link.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.014426836573344301029 -0.023432379018913720992 -5.5511151231257827021e-17" rpy="-1.5707963267948972241 4.444570558631087558e-15 -2.6320325123691348246" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/grip_link.stl"/>
+</geometry>
+<material name="grip_link_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014426836573344301029 -0.023432379018913720992 -5.5511151231257827021e-17" rpy="-1.5707963267948972241 4.444570558631087558e-15 -2.6320325123691348246" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/grip_link.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.010106342553831082487 0 5.5511151231257827021e-17" rpy="-1.570796326794896558 -7.5597805506765615857e-18 -6.8870531758965915586e-18" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gear_2.stl"/>
+</geometry>
+<material name="gear_2_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.010106342553831082487 0 5.5511151231257827021e-17" rpy="-1.570796326794896558 -7.5597805506765615857e-18 -6.8870531758965915586e-18" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gear_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0017901170777080421814 -0.031036576004091299963 2.2204460492503130808e-16" rpy="-1.5707963267948970021 -9.685273839663954522e-16 -2.6179938779914961877" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gear_1.stl"/>
+</geometry>
+<material name="gear_1_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0017901170777080421814 -0.031036576004091299963 2.2204460492503130808e-16" rpy="-1.5707963267948970021 -9.685273839663954522e-16 -2.6179938779914961877" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gear_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.014071468313771776093 -0.037036566430032474839 1.6653345369377348106e-16" rpy="3.0137706443454952421 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gripper.stl"/>
+</geometry>
+<material name="gripper_material">
+<color rgba="0.3058823529411764941 0.59607843137254901134 0.10588235294117646912 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.014071468313771776093 -0.037036566430032474839 1.6653345369377348106e-16" rpy="3.0137706443454952421 -1.570796326794896558 0" />
+<geometry>
+<mesh filename="/Users/OUSSAMA/Desktop/projects/WIP/Arm robot project/5- simulation/robotics_tool_box_python/arm_robot/meshes/gripper.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.028564274528096442185 -0.020582360878763583667 0.00054120879120893869776" rpy="0 0 0"/>
+<mass value="0.082553810975999980526" />
+<inertia ixx="2.3275317941904828884e-05" ixy="-8.0850792909336530168e-06"  ixz="4.6319759301260474054e-06" iyy="5.4191141447734855665e-05" iyz="1.088394370879827883e-06" izz="7.537552783967661936e-05" />
+</inertial>
+</link>
+
+<joint name="gripper" type="revolute">
+<origin xyz="0.01399999999999979039 0.037999999999999700684 0.017899999999999881284" rpy="1.570796326794896558 0.26179938779914885272 -1.5707963267948976682" />
+<parent link="gripper_base" />
+<child link="gripper" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-0.26179938779914940783" upper="0.785398163397448279"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="theta5" type="revolute">
+<origin xyz="0.015684077597661605363 -0.0038009564709030451563 -0.028099990916539308028" rpy="-1.5707963267948881203 1.5130053730197832174 1.0192323432971062136" />
+<parent link="link_3" />
+<child link="gripper_base" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="theta4" type="revolute">
+<origin xyz="0.091100573746811241982 -0.010828478939054076574 -0.01072900376187257282" rpy="-1.5707963267949001107 -1.0035772518508432327 1.5081084610458845852" />
+<parent link="link_2" />
+<child link="link_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="theta3" type="revolute">
+<origin xyz="-0.023644920167362300928 -0.1176474298498657034 1.0755285551056203985e-16" rpy="-3.1415926535897913396 -2.0535690044882846071e-15 -1.7166171415890869589" />
+<parent link="link_1" />
+<child link="link_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="theta2" type="revolute">
+<origin xyz="0.013418564982389535184 -0.0041118039218674649893 -0.040276480175933174199" rpy="1.570796326794896558 -0.26810859151204358142 -0.16873178976647065785" />
+<parent link="waist" />
+<child link="link_1" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="theta1" type="revolute">
+<origin xyz="0.0021709824683122797007 0.031524939536077073443 0.02871623320262758905" rpy="-3.1415926535897908956 -2.3846145207440365311e-15 0.71119967984597842747" />
+<parent link="base" />
+<child link="waist" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" />
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>

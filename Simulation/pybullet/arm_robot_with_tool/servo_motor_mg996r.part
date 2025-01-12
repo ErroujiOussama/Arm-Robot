@@ -1,0 +1,13 @@
+{
+    "configuration": "default",
+    "documentId": "a6c6bd90ba58ffe4a260b316",
+    "documentMicroversion": "8ae0ed2c19e49169c42aea13",
+    "elementId": "a7d23e1dd33a87c1aee50336",
+    "fullConfiguration": "default",
+    "id": "MMuysYiEkxQsVnyAv",
+    "isStandardContent": false,
+    "name": "Servo Motor MG996R <1>",
+    "partId": "JFT",
+    "suppressed": false,
+    "type": "Part"
+}
